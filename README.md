@@ -1,42 +1,37 @@
-# Profit-vs-Fairness-in-Automated-Loan-Approval
+# Profit vs Fairness in Automated Loan Approval
 
 ## About this project
-This project is basically me trying to understand one thing:
+This project explores a key question:
 
-When a loan approval system is trying to more profit, does fairness quietly take a hit somewhere?
+When a loan approval system is optimized for profit, does fairness get affected in the process?
 
-I didn't treat this like a formal model-building project. I just went into the data and tried to see what kind of patterns shows up when decisions are being made.
+Instead of focusing only on model building, the goal is to understand patterns in the data and how different groups are represented in credit risk decisions.
 
-## What I looked at
-- how loan approvals change based on different factors
--  whether some groups consistently end up with higher risk labels
--  what the data suggests about "fairness" in these decisions
--  how profit-driven logic might influence outcomes
+## What I analyzed
+- How loan approvals vary across different applicant features
+- Whether certain groups are associated with higher credit risk labels
+- What the data suggests about fairness in decision patterns
+- How profit-driven decisions may influence outcomes
 
-## What I actually did
-- cleaned and explored the dataset
-- did basic EDA(univariate + bivariate)
-- compared groups and their credit risk patterns
-- tried to spot where things start to look uneven
+## What I did
+- Cleaned and explored the dataset
+- Performed exploratory data analysis (univariate + bivariate)
+- Compared credit risk across different groups
+- Identified patterns that may indicate imbalance or bias
 
-## The way I approached it
-Instead of only asking "what does the data say?", I kept asking:
-- if this was a real system, would this be okay?
-- are we just optimizing for profit and calling it "accuracy"?
-- where does fairness start slipping without anyone noticing?
+## Approach
+Instead of only asking “what does the data show?”, the analysis focuses on:
+- whether real-world decision systems could be fair
+- whether optimization for accuracy/profit can introduce bias
+- where disparities appear across groups
 
-
-## Tools I used
+## Tools used
 - Python
 - Pandas
-- Numpy
-- Matplotlib/Seaborn
+- NumPy
+- Matplotlib / Seaborn
 - Google Colab
 
-## Why I did this
-Loan approval system affect real people, nut just numbers in a table.
-I wanted to see how something that looks purely technical can still have ethical consequences.
-
-
-
-
+## Motivation
+Loan approval systems affect real people, not just data points.  
+This project explores how technical decisions can also have ethical implications.
